@@ -1,0 +1,70 @@
+#include<iostream>
+using namespace std;
+main(){
+	char operation;
+	int deposit_amount,balance=10000,Transfer_amount,Withdraw;
+	cout<<"			Welcome to HBL			"<<endl;
+	
+    cout<<"For deposit Enter D/d ,For withdraw enter W/w , For transfer T /t ,C/c for balance check"<<endl;
+    cin>>operation ;
+    switch (operation)
+	{
+    	case 'c':
+    		cout<<"your balance ="<<balance;
+    		break;
+    		case 'C':
+    				cout<<"your balance ="<<balance;
+    				break;
+    	case 'd':
+    		cout<<"Enter the deposit amount ";
+    		cin>>deposit_amount;
+    		if (deposit_amount<=0)
+    		cout<<"Error";
+    		else cout<<"you deposited"<<"="<<deposit_amount;
+    		break;
+    		
+    			case 'D':
+    		cout<<"Enter the deposit amount ";
+    		cin>>deposit_amount;
+    		if (deposit_amount<=0)
+    		cout<<"Error";
+    		else cout<<"you deposited"<<"="<<deposit_amount;
+    		break;
+    		
+    		case 'T':
+    			cout<<"Enter the amount you want to transfer";
+    			cin>>Transfer_amount;
+    			if(Transfer_amount>balance)
+    			cout<<"Error";
+    			else cout<<"Amount Transfer ="<<Transfer_amount;
+    			break;
+    				case 't':
+    			cout<<"Enter the amount you want to transfer";
+    			cin>>Transfer_amount;
+    			if(Transfer_amount>balance)
+    			cout<<"Error";
+    			else cout<<"Amount Transfer ="<<Transfer_amount;
+    			break;
+    		
+    		case 'W':
+    			cout<<"Amount to withdraw =";
+    			cin>>W;
+    			if(W>b)
+    			cout<<"Error";
+    			else
+    			cout<<"WithdraW amount = "<<W;
+    			break;
+    					case 'w':
+    			cout<<"Amount to withdraw =";
+    			cin>>W;
+    			if(W>b)
+    			cout<<"Error";
+    			else
+    			cout<<"WithdraW amount = " <<W;
+    			break;
+    			default:
+				cout<<"Error";
+    		}
+    		return 0;
+    	}
+	
